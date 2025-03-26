@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: #d2691e;
+}
+.cardapio{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+    background-color: #d2691e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+.preco{
+    font-weight: bold;
+    color: #d2691e;
+}
